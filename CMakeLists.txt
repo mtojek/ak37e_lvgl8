@@ -1,7 +1,7 @@
 # cmake最低版本号要求
 cmake_minimum_required(VERSION 2.8)
 # 项目名称
-project(ak37e_lvgl LANGUAGES C)
+project(ak37e_lvgl8 LANGUAGES C)
 # 选择要使用的编译器，请确保系统环境变量包含编译器路径
 set(CMAKE_C_COMPILER "arm-anykav500-linux-uclibcgnueabi-gcc")
 # 设置编译选项
