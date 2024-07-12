@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/a/Project/ak37e_lvgl
+CMAKE_SOURCE_DIR = /home/a/Project/repo/ak37e_lvgl8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/a/Project/ak37e_lvgl/build
+CMAKE_BINARY_DIR = /home/a/Project/repo/ak37e_lvgl8/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ak37e_lvgl_demo.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.o: ../lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp_osa.c.o.prov
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.o: ../lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_pxp/lv_gpu_nxp_pxp.c.o.provides
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.o: ../lvgl/src/draw/lv_img_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_img_buf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_img_buf.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_img_buf.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_img_buf.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_img_buf.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_img_buf.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_buf.c.o.provides.build: CMak
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_composite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_composite.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_composite.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_composite.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_composite.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o.provi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_label.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_label.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_label.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_label.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_label.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_label.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_utils.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_utils.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_utils.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_utils.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o.p
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_img.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_img.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_img.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_img.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_img.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_img.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o.provides.bu
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o.provide
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_mask.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_mask.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_mask.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_mask.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_mask.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o.provides.b
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_bg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_bg.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_bg.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_bg.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_bg.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o.provides.bui
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_rect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_rect.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_rect.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_rect.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_rect.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o.provides.b
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_arc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_arc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_arc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_arc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o.provides.bu
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o.prov
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o.provides.build:
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_line.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_line.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_line.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_line.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sdl/lv_draw_sdl_line.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o.provides.b
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.o: ../lvgl/src/draw/lv_draw_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_arc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_arc.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_arc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_arc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_arc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_arc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_arc.c.o.provides.build: CMa
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.o: ../lvgl/src/draw/lv_draw_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_line.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_line.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_line.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_line.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_line.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_line.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.o: ../lvgl/src/draw/lv_img_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_img_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_img_cache.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_img_cache.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_img_cache.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_img_cache.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_img_cache.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_cache.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.o: ../lvgl/src/draw/lv_draw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw.c.o.provides.build: CMakeFi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.o: ../lvgl/src/draw/lv_draw_mask.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_mask.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_mask.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_mask.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_mask.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_mask.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_mask.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_mask.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o: ../lvgl/src/draw/sw/lv_draw_sw_dither.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_dither.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_dither.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_dither.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o.provides.b
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o: ../lvgl/src/draw/sw/lv_draw_sw_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_arc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_arc.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_arc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_arc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_arc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_arc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o.provides.buil
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.o: ../lvgl/src/draw/sw/lv_draw_sw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw.c.o.provides.build: C
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o: ../lvgl/src/draw/sw/lv_draw_sw_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_img.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_img.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_img.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_img.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_img.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_img.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o.provides.buil
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o: ../lvgl/src/draw/sw/lv_draw_sw_rect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_rect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_rect.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_rect.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_rect.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_rect.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_rect.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o.provides.bui
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o: ../lvgl/src/draw/sw/lv_draw_sw_letter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_letter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_letter.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_letter.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_letter.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_letter.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_letter.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o.provides.b
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o: ../lvgl/src/draw/sw/lv_draw_sw_blend.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_blend.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_blend.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_blend.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_blend.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_blend.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_blend.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o.provides.bu
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o: ../lvgl/src/draw/sw/lv_draw_sw_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_line.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_line.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_line.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_line.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_line.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o.provides.bui
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o: ../lvgl/src/draw/sw/lv_draw_sw_polygon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_polygon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_polygon.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_polygon.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_polygon.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_polygon.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_polygon.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o: ../lvgl/src/draw/sw/lv_draw_sw_gradient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_gradient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_gradient.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_gradient.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_gradient.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/sw/lv_draw_sw_gradient.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/sw/lv_draw_sw_gradient.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o.provides
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.o: ../lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/nxp_vglite/lv_gpu_nxp_vglite.c.o.pr
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.o: ../lvgl/src/draw/lv_draw_label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_label.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_label.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_label.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_label.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_label.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_label.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_label.c.o.provides.build: C
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.o: ../lvgl/src/draw/lv_img_decoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_img_decoder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_img_decoder.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_img_decoder.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_img_decoder.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_img_decoder.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_img_decoder.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_img_decoder.c.o.provides.build: 
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: ../lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.o: ../lvgl/src/draw/lv_draw_triangle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_triangle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_triangle.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_triangle.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_triangle.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_triangle.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_triangle.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_triangle.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.o: ../lvgl/src/draw/lv_draw_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_img.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_img.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_img.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_img.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_img.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_img.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_img.c.o.provides.build: CMa
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.o: ../lvgl/src/draw/lv_draw_rect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_rect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_rect.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_rect.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_rect.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/draw/lv_draw_rect.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/draw/lv_draw_rect.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/draw/lv_draw_rect.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o: ../lvgl/src/extra/layouts/grid/lv_grid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/layouts/grid/lv_grid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/layouts/grid/lv_grid.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/layouts/grid/lv_grid.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/layouts/grid/lv_grid.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/layouts/grid/lv_grid.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/layouts/grid/lv_grid.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o: ../lvgl/src/extra/layouts/flex/lv_flex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/layouts/flex/lv_flex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/layouts/flex/lv_flex.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/layouts/flex/lv_flex.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/layouts/flex/lv_flex.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/layouts/flex/lv_flex.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/layouts/flex/lv_flex.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.o: ../lvgl/src/extra/lv_extra.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/lv_extra.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/lv_extra.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/lv_extra.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/lv_extra.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/lv_extra.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/lv_extra.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.o.requires:
 
@@ -1043,16 +1043,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/lv_extra.c.o.provides.build: CMake
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o: ../lvgl/src/extra/themes/mono/lv_theme_mono.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/themes/mono/lv_theme_mono.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/themes/mono/lv_theme_mono.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/themes/mono/lv_theme_mono.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/themes/mono/lv_theme_mono.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/themes/mono/lv_theme_mono.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/themes/mono/lv_theme_mono.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o.requires:
 
@@ -1067,16 +1067,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o.prov
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o: ../lvgl/src/extra/themes/basic/lv_theme_basic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/themes/basic/lv_theme_basic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/themes/basic/lv_theme_basic.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/themes/basic/lv_theme_basic.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/themes/basic/lv_theme_basic.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/themes/basic/lv_theme_basic.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/themes/basic/lv_theme_basic.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o.requires:
 
@@ -1091,16 +1091,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o.pr
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o: ../lvgl/src/extra/themes/default/lv_theme_default.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/themes/default/lv_theme_default.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/themes/default/lv_theme_default.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/themes/default/lv_theme_default.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/themes/default/lv_theme_default.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/themes/default/lv_theme_default.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/themes/default/lv_theme_default.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o.requires:
 
@@ -1115,16 +1115,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/themes/default/lv_theme_default.c.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o: ../lvgl/src/extra/others/snapshot/lv_snapshot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/others/snapshot/lv_snapshot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/others/snapshot/lv_snapshot.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/others/snapshot/lv_snapshot.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/others/snapshot/lv_snapshot.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/others/snapshot/lv_snapshot.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/others/snapshot/lv_snapshot.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o.requires:
 
@@ -1139,16 +1139,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o.pr
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o: ../lvgl/src/extra/others/gridnav/lv_gridnav.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/others/gridnav/lv_gridnav.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/others/gridnav/lv_gridnav.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/others/gridnav/lv_gridnav.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/others/gridnav/lv_gridnav.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/others/gridnav/lv_gridnav.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/others/gridnav/lv_gridnav.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o.requires:
 
@@ -1163,16 +1163,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o.prov
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o: ../lvgl/src/extra/others/monkey/lv_monkey.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/others/monkey/lv_monkey.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/others/monkey/lv_monkey.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/others/monkey/lv_monkey.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/others/monkey/lv_monkey.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/others/monkey/lv_monkey.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/others/monkey/lv_monkey.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o.requires:
 
@@ -1187,16 +1187,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o.provid
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o: ../lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o.requires:
 
@@ -1211,16 +1211,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.o: ../lvgl/src/extra/widgets/list/lv_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/list/lv_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/list/lv_list.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/list/lv_list.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/list/lv_list.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/list/lv_list.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/list/lv_list.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.o.requires:
 
@@ -1235,16 +1235,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/list/lv_list.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o: ../lvgl/src/extra/widgets/tileview/lv_tileview.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/tileview/lv_tileview.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/tileview/lv_tileview.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/tileview/lv_tileview.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/tileview/lv_tileview.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/tileview/lv_tileview.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/tileview/lv_tileview.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o.requires:
 
@@ -1259,16 +1259,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o.p
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/calendar/lv_calendar.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/calendar/lv_calendar.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/calendar/lv_calendar.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o.requires:
 
@@ -1283,16 +1283,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o.p
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o.requires:
 
@@ -1307,16 +1307,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_heade
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o.requires:
 
@@ -1331,16 +1331,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/calendar/lv_calendar_heade
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o: ../lvgl/src/extra/widgets/meter/lv_meter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/meter/lv_meter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/meter/lv_meter.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/meter/lv_meter.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/meter/lv_meter.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/meter/lv_meter.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/meter/lv_meter.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o.requires:
 
@@ -1355,16 +1355,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o.provide
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o: ../lvgl/src/extra/widgets/menu/lv_menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/menu/lv_menu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/menu/lv_menu.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/menu/lv_menu.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/menu/lv_menu.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/menu/lv_menu.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/menu/lv_menu.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o.requires:
 
@@ -1379,16 +1379,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.o: ../lvgl/src/extra/widgets/span/lv_span.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/span/lv_span.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/span/lv_span.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/span/lv_span.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/span/lv_span.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/span/lv_span.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/span/lv_span.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.o.requires:
 
@@ -1403,16 +1403,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/span/lv_span.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o: ../lvgl/src/extra/widgets/keyboard/lv_keyboard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/keyboard/lv_keyboard.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/keyboard/lv_keyboard.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/keyboard/lv_keyboard.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/keyboard/lv_keyboard.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o.requires:
 
@@ -1427,16 +1427,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o.p
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o: ../lvgl/src/extra/widgets/animimg/lv_animimg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/animimg/lv_animimg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/animimg/lv_animimg.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/animimg/lv_animimg.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/animimg/lv_animimg.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/animimg/lv_animimg.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/animimg/lv_animimg.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o.requires:
 
@@ -1451,16 +1451,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o.pro
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o: ../lvgl/src/extra/widgets/tabview/lv_tabview.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/tabview/lv_tabview.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/tabview/lv_tabview.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/tabview/lv_tabview.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/tabview/lv_tabview.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/tabview/lv_tabview.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/tabview/lv_tabview.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o.requires:
 
@@ -1475,16 +1475,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o.pro
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o: ../lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o.requires:
 
@@ -1499,16 +1499,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o.provi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.o: ../lvgl/src/extra/widgets/win/lv_win.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/win/lv_win.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/win/lv_win.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/win/lv_win.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/win/lv_win.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/win/lv_win.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/win/lv_win.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.o.requires:
 
@@ -1523,16 +1523,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/win/lv_win.c.o.provides.bu
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o: ../lvgl/src/extra/widgets/spinner/lv_spinner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/spinner/lv_spinner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/spinner/lv_spinner.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/spinner/lv_spinner.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/spinner/lv_spinner.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/spinner/lv_spinner.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/spinner/lv_spinner.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o.requires:
 
@@ -1547,16 +1547,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o.pro
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o: ../lvgl/src/extra/widgets/spinbox/lv_spinbox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/spinbox/lv_spinbox.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/spinbox/lv_spinbox.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/spinbox/lv_spinbox.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/spinbox/lv_spinbox.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o.requires:
 
@@ -1571,16 +1571,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o.pro
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o: ../lvgl/src/extra/widgets/chart/lv_chart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/chart/lv_chart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/chart/lv_chart.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/chart/lv_chart.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/chart/lv_chart.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/chart/lv_chart.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/chart/lv_chart.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o.requires:
 
@@ -1595,16 +1595,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o.provide
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o: ../lvgl/src/extra/widgets/msgbox/lv_msgbox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/msgbox/lv_msgbox.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/msgbox/lv_msgbox.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/msgbox/lv_msgbox.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/msgbox/lv_msgbox.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o.requires:
 
@@ -1619,16 +1619,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o.provi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.o: ../lvgl/src/extra/widgets/led/lv_led.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/led/lv_led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/led/lv_led.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/led/lv_led.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/led/lv_led.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/widgets/led/lv_led.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/widgets/led/lv_led.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.o.requires:
 
@@ -1643,16 +1643,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/widgets/led/lv_led.c.o.provides.bu
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o: ../lvgl/src/extra/libs/sjpg/tjpgd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/sjpg/tjpgd.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/sjpg/tjpgd.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/sjpg/tjpgd.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o.requires:
 
@@ -1667,16 +1667,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o: ../lvgl/src/extra/libs/sjpg/lv_sjpg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/sjpg/lv_sjpg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/sjpg/lv_sjpg.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/sjpg/lv_sjpg.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/sjpg/lv_sjpg.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/sjpg/lv_sjpg.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/sjpg/lv_sjpg.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o.requires:
 
@@ -1691,16 +1691,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o.provides.bui
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o: ../lvgl/src/extra/libs/freetype/lv_freetype.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/freetype/lv_freetype.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/freetype/lv_freetype.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/freetype/lv_freetype.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/freetype/lv_freetype.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/freetype/lv_freetype.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/freetype/lv_freetype.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o.requires:
 
@@ -1715,16 +1715,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o.prov
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.o: ../lvgl/src/extra/libs/png/lodepng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/png/lodepng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/png/lodepng.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/png/lodepng.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/png/lodepng.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/png/lodepng.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/png/lodepng.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.o.requires:
 
@@ -1739,16 +1739,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lodepng.c.o.provides.buil
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.o: ../lvgl/src/extra/libs/png/lv_png.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/png/lv_png.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/png/lv_png.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/png/lv_png.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/png/lv_png.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/png/lv_png.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/png/lv_png.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.o.requires:
 
@@ -1763,16 +1763,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/png/lv_png.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: ../lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o.requires:
 
@@ -1787,16 +1787,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o.provides
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o: ../lvgl/src/extra/libs/rlottie/lv_rlottie.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/rlottie/lv_rlottie.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/rlottie/lv_rlottie.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/rlottie/lv_rlottie.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/rlottie/lv_rlottie.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/rlottie/lv_rlottie.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/rlottie/lv_rlottie.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o.requires:
 
@@ -1811,16 +1811,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o.provid
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.o: ../lvgl/src/extra/libs/gif/gifdec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/gif/gifdec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/gif/gifdec.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/gif/gifdec.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/gif/gifdec.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/gif/gifdec.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/gif/gifdec.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.o.requires:
 
@@ -1835,16 +1835,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/gifdec.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.o: ../lvgl/src/extra/libs/gif/lv_gif.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/gif/lv_gif.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/gif/lv_gif.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/gif/lv_gif.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/gif/lv_gif.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/gif/lv_gif.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/gif/lv_gif.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.o.requires:
 
@@ -1859,16 +1859,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/gif/lv_gif.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o: ../lvgl/src/extra/libs/qrcode/qrcodegen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/qrcode/qrcodegen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/qrcode/qrcodegen.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/qrcode/qrcodegen.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/qrcode/qrcodegen.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/qrcode/qrcodegen.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/qrcode/qrcodegen.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o.requires:
 
@@ -1883,16 +1883,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o.provides
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o: ../lvgl/src/extra/libs/qrcode/lv_qrcode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/qrcode/lv_qrcode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/qrcode/lv_qrcode.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/qrcode/lv_qrcode.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/qrcode/lv_qrcode.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/qrcode/lv_qrcode.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/qrcode/lv_qrcode.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o.requires:
 
@@ -1907,16 +1907,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o.provides
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o.requires:
 
@@ -1931,16 +1931,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o.provide
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o.requires:
 
@@ -1955,16 +1955,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o.provide
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o.requires:
 
@@ -1979,16 +1979,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o.provide
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o.requires:
 
@@ -2003,16 +2003,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o.provide
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o: ../lvgl/src/extra/libs/bmp/lv_bmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/bmp/lv_bmp.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/bmp/lv_bmp.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/extra/libs/bmp/lv_bmp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o.requires:
 
@@ -2027,16 +2027,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.o: ../lvgl/src/misc/lv_txt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_txt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_txt.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_txt.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_txt.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_txt.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_txt.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.o.requires:
 
@@ -2051,16 +2051,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt.c.o.provides.build: CMakeFil
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.o: ../lvgl/src/misc/lv_lru.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_lru.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_lru.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_lru.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_lru.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_lru.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_lru.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.o.requires:
 
@@ -2075,16 +2075,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_lru.c.o.provides.build: CMakeFil
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.o: ../lvgl/src/misc/lv_templ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_templ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_templ.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_templ.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_templ.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_templ.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_templ.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.o.requires:
 
@@ -2099,16 +2099,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_templ.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.o: ../lvgl/src/misc/lv_anim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_anim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_anim.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_anim.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_anim.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_anim.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_anim.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.o.requires:
 
@@ -2123,16 +2123,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim.c.o.provides.build: CMakeFi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.o: ../lvgl/src/misc/lv_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_math.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_math.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_math.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_math.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_math.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.o.requires:
 
@@ -2147,16 +2147,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_math.c.o.provides.build: CMakeFi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.o: ../lvgl/src/misc/lv_mem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_mem.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_mem.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_mem.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_mem.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_mem.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.o.requires:
 
@@ -2171,16 +2171,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_mem.c.o.provides.build: CMakeFil
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.o: ../lvgl/src/misc/lv_log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_log.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_log.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_log.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_log.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_log.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.o.requires:
 
@@ -2195,16 +2195,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_log.c.o.provides.build: CMakeFil
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.o: ../lvgl/src/misc/lv_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_printf.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_printf.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_printf.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_printf.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_printf.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.o.requires:
 
@@ -2219,16 +2219,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_printf.c.o.provides.build: CMake
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.o: ../lvgl/src/misc/lv_gc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_gc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_gc.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_gc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_gc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_gc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_gc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.o.requires:
 
@@ -2243,16 +2243,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_gc.c.o.provides.build: CMakeFile
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.o: ../lvgl/src/misc/lv_style.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_style.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_style.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_style.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_style.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_style.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_style.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.o.requires:
 
@@ -2267,16 +2267,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.o: ../lvgl/src/misc/lv_anim_timeline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_anim_timeline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_anim_timeline.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_anim_timeline.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_anim_timeline.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_anim_timeline.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_anim_timeline.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.o.requires:
 
@@ -2291,16 +2291,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_anim_timeline.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.o: ../lvgl/src/misc/lv_style_gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_style_gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_style_gen.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_style_gen.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_style_gen.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_style_gen.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_style_gen.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.o.requires:
 
@@ -2315,16 +2315,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_style_gen.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.o: ../lvgl/src/misc/lv_area.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_area.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_area.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_area.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_area.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_area.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_area.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.o.requires:
 
@@ -2339,16 +2339,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_area.c.o.provides.build: CMakeFi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.o: ../lvgl/src/misc/lv_timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_timer.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_timer.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_timer.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_timer.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_timer.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.o.requires:
 
@@ -2363,16 +2363,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_timer.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.o: ../lvgl/src/misc/lv_fs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_fs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_fs.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_fs.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_fs.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_fs.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_fs.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.o.requires:
 
@@ -2387,16 +2387,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_fs.c.o.provides.build: CMakeFile
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.o: ../lvgl/src/misc/lv_bidi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_bidi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_bidi.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_bidi.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_bidi.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_bidi.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_bidi.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.o.requires:
 
@@ -2411,16 +2411,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_bidi.c.o.provides.build: CMakeFi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.o: ../lvgl/src/misc/lv_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_utils.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_utils.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_utils.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_utils.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_utils.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.o.requires:
 
@@ -2435,16 +2435,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_utils.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.o: ../lvgl/src/misc/lv_txt_ap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_txt_ap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_txt_ap.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_txt_ap.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_txt_ap.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_txt_ap.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_txt_ap.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.o.requires:
 
@@ -2459,16 +2459,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_txt_ap.c.o.provides.build: CMake
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.o: ../lvgl/src/misc/lv_color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_color.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_color.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_color.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_color.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_color.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_color.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.o.requires:
 
@@ -2483,16 +2483,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_color.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.o: ../lvgl/src/misc/lv_async.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_async.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_async.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_async.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_async.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_async.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_async.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.o.requires:
 
@@ -2507,16 +2507,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_async.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.o: ../lvgl/src/misc/lv_ll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_ll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_ll.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_ll.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_ll.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_ll.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_ll.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.o.requires:
 
@@ -2531,16 +2531,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_ll.c.o.provides.build: CMakeFile
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.o: ../lvgl/src/misc/lv_tlsf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_tlsf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_tlsf.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_tlsf.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_tlsf.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/misc/lv_tlsf.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/misc/lv_tlsf.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.o.requires:
 
@@ -2555,16 +2555,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/misc/lv_tlsf.c.o.provides.build: CMakeFi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.o: ../lvgl/src/font/lv_font_montserrat_12.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_12.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_12.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_12.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_12.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_12.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_12.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.o.requires:
 
@@ -2579,16 +2579,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.o: ../lvgl/src/font/lv_font_montserrat_22.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_22.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_22.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_22.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_22.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_22.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_22.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.o.requires:
 
@@ -2603,16 +2603,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_22.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o: ../lvgl/src/font/lv_font_montserrat_28_compressed.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_28_compressed.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_28_compressed.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_28_compressed.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_28_compressed.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_28_compressed.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_28_compressed.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o.requires:
 
@@ -2627,16 +2627,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.o: ../lvgl/src/font/lv_font_montserrat_24.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_24.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_24.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_24.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_24.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_24.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_24.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.o.requires:
 
@@ -2651,16 +2651,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_24.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.o: ../lvgl/src/font/lv_font_montserrat_32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_32.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_32.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_32.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_32.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_32.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.o.requires:
 
@@ -2675,16 +2675,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_32.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.o: ../lvgl/src/font/lv_font_montserrat_10.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_10.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_10.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_10.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_10.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_10.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_10.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.o.requires:
 
@@ -2699,16 +2699,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_10.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.o: ../lvgl/src/font/lv_font_montserrat_16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_16.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_16.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_16.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_16.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_16.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_16.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.o.requires:
 
@@ -2723,16 +2723,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_16.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.o: ../lvgl/src/font/lv_font_montserrat_14.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_14.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_14.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_14.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_14.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_14.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_14.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.o.requires:
 
@@ -2747,16 +2747,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_14.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.o: ../lvgl/src/font/lv_font_unscii_16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_unscii_16.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_unscii_16.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_unscii_16.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_unscii_16.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_unscii_16.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_unscii_16.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.o.requires:
 
@@ -2771,16 +2771,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_16.c.o.provides.buil
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.o: ../lvgl/src/font/lv_font_unscii_8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_unscii_8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_unscii_8.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_unscii_8.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_unscii_8.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_unscii_8.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_unscii_8.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.o.requires:
 
@@ -2795,16 +2795,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_unscii_8.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.o: ../lvgl/src/font/lv_font_montserrat_18.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_18.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_18.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_18.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_18.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_18.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_18.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.o.requires:
 
@@ -2819,16 +2819,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_18.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.o: ../lvgl/src/font/lv_font_montserrat_46.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_46.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_46.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_46.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_46.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_46.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_46.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.o.requires:
 
@@ -2843,16 +2843,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_46.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.o: ../lvgl/src/font/lv_font_montserrat_28.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_28.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_28.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_28.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_28.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_28.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_28.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.o.requires:
 
@@ -2867,16 +2867,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_28.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o: ../lvgl/src/font/lv_font_montserrat_12_subpx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_12_subpx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_12_subpx.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_12_subpx.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_12_subpx.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_12_subpx.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_12_subpx.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o.requires:
 
@@ -2891,16 +2891,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o.pro
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.o: ../lvgl/src/font/lv_font_montserrat_42.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_42.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_42.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_42.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_42.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_42.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_42.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.o.requires:
 
@@ -2915,16 +2915,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_42.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.o: ../lvgl/src/font/lv_font_montserrat_20.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_20.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_20.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_20.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_20.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_20.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_20.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.o.requires:
 
@@ -2939,16 +2939,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_20.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.o: ../lvgl/src/font/lv_font_montserrat_26.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_26.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_26.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_26.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_26.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_26.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_26.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.o.requires:
 
@@ -2963,16 +2963,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_26.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.o: ../lvgl/src/font/lv_font_montserrat_48.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_48.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_48.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_48.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_48.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_48.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_48.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.o.requires:
 
@@ -2987,16 +2987,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_48.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.o: ../lvgl/src/font/lv_font_montserrat_36.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_36.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_36.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_36.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_36.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_36.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_36.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.o.requires:
 
@@ -3011,16 +3011,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_36.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.o: ../lvgl/src/font/lv_font_loader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_loader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_loader.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_loader.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_loader.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_loader.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_loader.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.o.requires:
 
@@ -3035,16 +3035,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_loader.c.o.provides.build: 
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.o: ../lvgl/src/font/lv_font_montserrat_30.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_30.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_30.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_30.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_30.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_30.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_30.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.o.requires:
 
@@ -3059,16 +3059,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_30.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.o: ../lvgl/src/font/lv_font_montserrat_38.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_38.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_38.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_38.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_38.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_38.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_38.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.o.requires:
 
@@ -3083,16 +3083,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_38.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o: ../lvgl/src/font/lv_font_simsun_16_cjk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_simsun_16_cjk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_simsun_16_cjk.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_simsun_16_cjk.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_simsun_16_cjk.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_simsun_16_cjk.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_simsun_16_cjk.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o.requires:
 
@@ -3107,16 +3107,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.o: ../lvgl/src/font/lv_font.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.o.requires:
 
@@ -3131,16 +3131,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font.c.o.provides.build: CMakeFi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.o: ../lvgl/src/font/lv_font_montserrat_40.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_40.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_40.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_40.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_40.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_40.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_40.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.o.requires:
 
@@ -3155,16 +3155,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_40.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.o: ../lvgl/src/font/lv_font_montserrat_44.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_44.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_44.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_44.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_44.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_44.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_44.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.o.requires:
 
@@ -3179,16 +3179,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_44.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.o: ../lvgl/src/font/lv_font_montserrat_34.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_34.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_34.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_34.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_34.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_34.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_34.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.o.requires:
 
@@ -3203,16 +3203,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_34.c.o.provides.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.o: ../lvgl/src/font/lv_font_fmt_txt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_fmt_txt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_fmt_txt.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_fmt_txt.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_fmt_txt.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_fmt_txt.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_fmt_txt.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.o.requires:
 
@@ -3227,16 +3227,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_fmt_txt.c.o.provides.build:
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.o: ../lvgl/src/font/lv_font_montserrat_8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_8.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_8.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_8.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_montserrat_8.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_montserrat_8.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.o.requires:
 
@@ -3251,16 +3251,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_montserrat_8.c.o.provides.b
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o: ../lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o.requires:
 
@@ -3275,16 +3275,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.o: ../lvgl/src/hal/lv_hal_indev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/hal/lv_hal_indev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/hal/lv_hal_indev.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/hal/lv_hal_indev.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/hal/lv_hal_indev.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/hal/lv_hal_indev.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/hal/lv_hal_indev.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.o.requires:
 
@@ -3299,16 +3299,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_indev.c.o.provides.build: CMa
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.o: ../lvgl/src/hal/lv_hal_disp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/hal/lv_hal_disp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/hal/lv_hal_disp.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/hal/lv_hal_disp.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/hal/lv_hal_disp.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/hal/lv_hal_disp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/hal/lv_hal_disp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.o.requires:
 
@@ -3323,16 +3323,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_disp.c.o.provides.build: CMak
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.o: ../lvgl/src/hal/lv_hal_tick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/hal/lv_hal_tick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/hal/lv_hal_tick.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/hal/lv_hal_tick.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/hal/lv_hal_tick.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/hal/lv_hal_tick.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/hal/lv_hal_tick.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.o.requires:
 
@@ -3347,16 +3347,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/hal/lv_hal_tick.c.o.provides.build: CMak
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.o: ../lvgl/src/widgets/lv_dropdown.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_dropdown.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_dropdown.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_dropdown.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_dropdown.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_dropdown.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_dropdown.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.o.requires:
 
@@ -3371,16 +3371,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_dropdown.c.o.provides.build: 
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.o: ../lvgl/src/widgets/lv_roller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_roller.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_roller.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_roller.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_roller.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_roller.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_roller.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.o.requires:
 
@@ -3395,16 +3395,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_roller.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.o: ../lvgl/src/widgets/lv_slider.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_slider.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_slider.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_slider.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_slider.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_slider.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_slider.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.o.requires:
 
@@ -3419,16 +3419,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_slider.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.o: ../lvgl/src/widgets/lv_btn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_btn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_btn.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_btn.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_btn.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_btn.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_btn.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.o.requires:
 
@@ -3443,16 +3443,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btn.c.o.provides.build: CMake
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.o: ../lvgl/src/widgets/lv_label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_label.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_label.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_label.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_label.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_label.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_label.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.o.requires:
 
@@ -3467,16 +3467,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_label.c.o.provides.build: CMa
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.o: ../lvgl/src/widgets/lv_objx_templ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_objx_templ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_objx_templ.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_objx_templ.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_objx_templ.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_objx_templ.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_objx_templ.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.o.requires:
 
@@ -3491,16 +3491,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_objx_templ.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.o: ../lvgl/src/widgets/lv_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_table.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_table.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_table.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_table.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_table.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.o.requires:
 
@@ -3515,16 +3515,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_table.c.o.provides.build: CMa
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.o: ../lvgl/src/widgets/lv_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_line.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_line.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_line.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_line.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_line.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.o.requires:
 
@@ -3539,16 +3539,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_line.c.o.provides.build: CMak
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.o: ../lvgl/src/widgets/lv_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_arc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_arc.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_arc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_arc.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_arc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_arc.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.o.requires:
 
@@ -3563,16 +3563,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_arc.c.o.provides.build: CMake
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.o: ../lvgl/src/widgets/lv_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_img.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_img.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_img.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_img.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_img.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_img.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.o.requires:
 
@@ -3587,16 +3587,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_img.c.o.provides.build: CMake
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.o: ../lvgl/src/widgets/lv_btnmatrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_btnmatrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_btnmatrix.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_btnmatrix.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_btnmatrix.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_btnmatrix.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_btnmatrix.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.o.requires:
 
@@ -3611,16 +3611,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_btnmatrix.c.o.provides.build:
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.o: ../lvgl/src/widgets/lv_canvas.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_canvas.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_canvas.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_canvas.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_canvas.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_canvas.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_canvas.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.o.requires:
 
@@ -3635,16 +3635,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_canvas.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.o: ../lvgl/src/widgets/lv_bar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_bar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_bar.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_bar.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_bar.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_bar.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_bar.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.o.requires:
 
@@ -3659,16 +3659,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_bar.c.o.provides.build: CMake
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.o: ../lvgl/src/widgets/lv_checkbox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_checkbox.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_checkbox.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_checkbox.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_checkbox.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_checkbox.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_checkbox.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.o.requires:
 
@@ -3683,16 +3683,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_checkbox.c.o.provides.build: 
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.o: ../lvgl/src/widgets/lv_textarea.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_textarea.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_textarea.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_textarea.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_textarea.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_textarea.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_textarea.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.o.requires:
 
@@ -3707,16 +3707,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_textarea.c.o.provides.build: 
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.o: ../lvgl/src/widgets/lv_switch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_switch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_switch.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_switch.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_switch.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/widgets/lv_switch.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/widgets/lv_switch.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.o.requires:
 
@@ -3731,16 +3731,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/widgets/lv_switch.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.o: ../lvgl/src/core/lv_indev_scroll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_indev_scroll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_indev_scroll.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_indev_scroll.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_indev_scroll.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_indev_scroll.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_indev_scroll.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.o.requires:
 
@@ -3755,16 +3755,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev_scroll.c.o.provides.build:
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.o: ../lvgl/src/core/lv_disp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_disp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_disp.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_disp.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_disp.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_disp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_disp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.o.requires:
 
@@ -3779,16 +3779,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_disp.c.o.provides.build: CMakeFi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.o: ../lvgl/src/core/lv_obj_tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_tree.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_tree.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_tree.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_tree.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_tree.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.o.requires:
 
@@ -3803,16 +3803,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_tree.c.o.provides.build: CMa
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.o: ../lvgl/src/core/lv_obj.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.o.requires:
 
@@ -3827,16 +3827,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj.c.o.provides.build: CMakeFil
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.o: ../lvgl/src/core/lv_obj_style_gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_style_gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_style_gen.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_style_gen.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_style_gen.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_style_gen.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_style_gen.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.o.requires:
 
@@ -3851,16 +3851,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style_gen.c.o.provides.build
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.o: ../lvgl/src/core/lv_obj_pos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_pos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_pos.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_pos.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_pos.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_pos.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_pos.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.o.requires:
 
@@ -3875,16 +3875,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_pos.c.o.provides.build: CMak
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.o: ../lvgl/src/core/lv_group.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_group.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_group.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_group.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_group.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_group.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_group.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.o.requires:
 
@@ -3899,16 +3899,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_group.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.o: ../lvgl/src/core/lv_refr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_refr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_refr.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_refr.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_refr.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_refr.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_refr.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.o.requires:
 
@@ -3923,16 +3923,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_refr.c.o.provides.build: CMakeFi
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.o: ../lvgl/src/core/lv_obj_scroll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_scroll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_scroll.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_scroll.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_scroll.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_scroll.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_scroll.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.o.requires:
 
@@ -3947,16 +3947,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_scroll.c.o.provides.build: C
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.o: ../lvgl/src/core/lv_theme.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_theme.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_theme.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_theme.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_theme.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_theme.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_theme.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.o.requires:
 
@@ -3971,16 +3971,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_theme.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.o: ../lvgl/src/core/lv_obj_class.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_class.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_class.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_class.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_class.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_class.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_class.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.o.requires:
 
@@ -3995,16 +3995,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_class.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.o: ../lvgl/src/core/lv_obj_style.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_style.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_style.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_style.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_style.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_style.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_style.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.o.requires:
 
@@ -4019,16 +4019,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_style.c.o.provides.build: CM
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.o: ../lvgl/src/core/lv_event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_event.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_event.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_event.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_event.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_event.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.o.requires:
 
@@ -4043,16 +4043,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_event.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.o: ../lvgl/src/core/lv_obj_draw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_draw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_draw.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_draw.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_draw.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_obj_draw.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_obj_draw.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.o.requires:
 
@@ -4067,16 +4067,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_obj_draw.c.o.provides.build: CMa
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.o: ../lvgl/src/core/lv_indev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.o   -c /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_indev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_indev.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_indev.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_indev.c > CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lvgl/src/core/lv_indev.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lvgl/src/core/lv_indev.c -o CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.o.requires:
 
@@ -4091,16 +4091,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lvgl/src/core/lv_indev.c.o.provides.build: CMakeF
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.o: ../ak37e/base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.o   -c /home/a/Project/ak37e_lvgl/ak37e/base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.o   -c /home/a/Project/repo/ak37e_lvgl8/ak37e/base.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/ak37e/base.c > CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/ak37e/base.c > CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/ak37e/base.c -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/ak37e/base.c -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.o.requires:
 
@@ -4115,16 +4115,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/ak37e/base.c.o.provides.build: CMakeFiles/ak37e_l
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.o: ../ak37e/ai.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.o   -c /home/a/Project/ak37e_lvgl/ak37e/ai.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.o   -c /home/a/Project/repo/ak37e_lvgl8/ak37e/ai.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/ak37e/ai.c > CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/ak37e/ai.c > CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/ak37e/ai.c -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/ak37e/ai.c -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.o.requires:
 
@@ -4139,16 +4139,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ai.c.o.provides.build: CMakeFiles/ak37e_lvg
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.o: ../ak37e/vo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.o   -c /home/a/Project/ak37e_lvgl/ak37e/vo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.o   -c /home/a/Project/repo/ak37e_lvgl8/ak37e/vo.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/ak37e/vo.c > CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/ak37e/vo.c > CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/ak37e/vo.c -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/ak37e/vo.c -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.o.requires:
 
@@ -4163,16 +4163,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/ak37e/vo.c.o.provides.build: CMakeFiles/ak37e_lvg
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.o: ../ak37e/ao.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.o   -c /home/a/Project/ak37e_lvgl/ak37e/ao.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.o   -c /home/a/Project/repo/ak37e_lvgl8/ak37e/ao.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/ak37e/ao.c > CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/ak37e/ao.c > CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/ak37e/ao.c -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/ak37e/ao.c -o CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.o.requires:
 
@@ -4187,16 +4187,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/ak37e/ao.c.o.provides.build: CMakeFiles/ak37e_lvg
 
 CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.o: ../work/work.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.o   -c /home/a/Project/ak37e_lvgl/work/work.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.o   -c /home/a/Project/repo/ak37e_lvgl8/work/work.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/work/work.c > CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/work/work.c > CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/work/work.c -o CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/work/work.c -o CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.o.requires:
 
@@ -4211,16 +4211,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/work/work.c.o.provides.build: CMakeFiles/ak37e_lv
 
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.o: ../lv_port_indev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.o   -c /home/a/Project/ak37e_lvgl/lv_port_indev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lv_port_indev.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lv_port_indev.c > CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lv_port_indev.c > CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lv_port_indev.c -o CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lv_port_indev.c -o CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.o.requires:
 
@@ -4235,16 +4235,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/lv_port_indev.c.o.provides.build: CMakeFiles/ak37
 
 CMakeFiles/ak37e_lvgl_demo.dir/main.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/main.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/main.c.o   -c /home/a/Project/ak37e_lvgl/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/main.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/main.c.o   -c /home/a/Project/repo/ak37e_lvgl8/main.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/main.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/main.c > CMakeFiles/ak37e_lvgl_demo.dir/main.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/main.c > CMakeFiles/ak37e_lvgl_demo.dir/main.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/main.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/main.c -o CMakeFiles/ak37e_lvgl_demo.dir/main.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/main.c -o CMakeFiles/ak37e_lvgl_demo.dir/main.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/main.c.o.requires:
 
@@ -4259,16 +4259,16 @@ CMakeFiles/ak37e_lvgl_demo.dir/main.c.o.provides.build: CMakeFiles/ak37e_lvgl_de
 
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.o: CMakeFiles/ak37e_lvgl_demo.dir/flags.make
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.o: ../lv_port_disp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.o"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.o   -c /home/a/Project/ak37e_lvgl/lv_port_disp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.o"
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.o   -c /home/a/Project/repo/ak37e_lvgl8/lv_port_disp.c
 
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.i"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/ak37e_lvgl/lv_port_disp.c > CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.i
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/a/Project/repo/ak37e_lvgl8/lv_port_disp.c > CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.i
 
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.s"
-	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/ak37e_lvgl/lv_port_disp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.s
+	arm-anykav500-linux-uclibcgnueabi-gcc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/a/Project/repo/ak37e_lvgl8/lv_port_disp.c -o CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.s
 
 CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.o.requires:
 
@@ -4641,7 +4641,7 @@ ak37e_lvgl_demo: CMakeFiles/ak37e_lvgl_demo.dir/main.c.o
 ak37e_lvgl_demo: CMakeFiles/ak37e_lvgl_demo.dir/lv_port_disp.c.o
 ak37e_lvgl_demo: CMakeFiles/ak37e_lvgl_demo.dir/build.make
 ak37e_lvgl_demo: CMakeFiles/ak37e_lvgl_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/a/Project/ak37e_lvgl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Linking C executable ak37e_lvgl_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Linking C executable ak37e_lvgl_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ak37e_lvgl_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -4833,6 +4833,6 @@ CMakeFiles/ak37e_lvgl_demo.dir/clean:
 .PHONY : CMakeFiles/ak37e_lvgl_demo.dir/clean
 
 CMakeFiles/ak37e_lvgl_demo.dir/depend:
-	cd /home/a/Project/ak37e_lvgl/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/a/Project/ak37e_lvgl /home/a/Project/ak37e_lvgl /home/a/Project/ak37e_lvgl/build /home/a/Project/ak37e_lvgl/build /home/a/Project/ak37e_lvgl/build/CMakeFiles/ak37e_lvgl_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/a/Project/repo/ak37e_lvgl8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/a/Project/repo/ak37e_lvgl8 /home/a/Project/repo/ak37e_lvgl8 /home/a/Project/repo/ak37e_lvgl8/build /home/a/Project/repo/ak37e_lvgl8/build /home/a/Project/repo/ak37e_lvgl8/build/CMakeFiles/ak37e_lvgl_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ak37e_lvgl_demo.dir/depend
 

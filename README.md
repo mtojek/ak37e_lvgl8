@@ -10,7 +10,7 @@
 - cmake、make 已安装
 - 交叉编译环境已配置（购买 AK37E 开发板后，向官方索要开发文档，里有流程）
 
-运行 run.sh 脚本会在 build 目录下生成目标程序。
+请将 `CMakeLists.txt` 里的 `set(CMAKE_C_COMPILER "arm-anykav500-linux-uclibcgnueabi-gcc")` 替换为自己的交叉编译器。
 
 ## 三、项目配置
 不同 AK37E 平台在外设配置上会有差异，该节主要介绍对 LVGL 的 **显示驱动** 和 **触摸驱动** 源码进行对应修改。
@@ -79,3 +79,4 @@ for(y = area->y1 ; y <= area->y2 ; y++)
     ```
 
 ## 四、开发
+用户可在 `work/work.c` 文件里的 `void work()` 函数里面添加自己的代码，该源文件还包括 TCP客户端与服务端模板，也可在了解该项目结构后，自行在其它地方添加或修改源码。如果首次编译该项目，请先 `rm -rf build/*` 删除 build 目录里的内容，然后在 `./run.sh` 进行编译，目标程序会在 build 目录下生成。
