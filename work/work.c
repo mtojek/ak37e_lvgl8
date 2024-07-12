@@ -61,5 +61,5 @@ ANYKA_SERVER_CREATE_FAILED:
 
 void work()
 {
-    /* 添加你的工作代码 */
+    /* 此处添加你的工作代码 */
 }
