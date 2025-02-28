@@ -75,7 +75,7 @@ void lv_port_disp_init(void)
 
     /* Example for 1) */
     static lv_disp_draw_buf_t draw_buf_dsc_1;
-    static lv_color_t buf_1[ANYKA_LCD_W * ANYKA_LCD_H];                          /*A buffer for 10 rows*/
+    static lv_color_t buf_1[ANYKA_LCD_W * ANYKA_LCD_H * 4];                          /*A buffer for 10 rows*/
     lv_disp_draw_buf_init(&draw_buf_dsc_1, buf_1, NULL, ANYKA_LCD_W * ANYKA_LCD_H);   /*Initialize the display buffer*/
 
     /* Example for 2) */
@@ -149,23 +149,30 @@ static void disp_flush(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_colo
     //        color_p++;
     //    }
     //}
+    //
+    printf("disp_flush\n");
 
-    //获取anyka gui图层的虚拟内存地址，并将color_p内存的像素写入gui图层
-    uint888* anyka_gui_addr = (uint888*)(anyka_gui_info.vir_addr);
     uint32_t addrIndex = 0;
     int16_t x , y;
+    unsigned int c = 0;
     for(y = area->y1 ; y <= area->y2 ; y++)
     {
         for(x = area->x1 ; x <= area->x2 ; x++)
         {
-            addrIndex = y * ANYKA_LCD_W + x;
+            addrIndex = y * ANYKA_LCD_W * 3 + x * 3;
+	    unsigned char * buffer = (unsigned char *) anyka_gui_info.vir_addr;
             //注意color_p与anyka_gui_addr的RGB排序方式是否一致
-            anyka_gui_addr[addrIndex] = *((uint888*)color_p);
+            buffer[addrIndex] = *(unsigned char *) color_p;
+	    buffer[addrIndex + 1] = *(((unsigned char *) color_p) + 1);
+	    buffer[addrIndex + 2] = *(((unsigned char *) color_p) + 2);
 
             color_p++;
+	    c++;
         }
     }
-    ak_vo_refresh_screen(AK_VO_REFRESH_GUI_GROUP);//刷新gui图层
+    int cmd = AK_VO_REFRESH_GUI_GROUP;
+    ak_vo_refresh_screen(cmd);//刷新gui图层
+    printf("Updated: %d\n", c);
 
     /*IMPORTANT!!!
      *Inform the graphics library that you are ready with the flushing*/
